@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+.container{
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+} 
+.menu ul li:hover{
+    border-bottom: 2px solid brown;
+}
+.menu ul{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+}
+.menu{
+    position: relative;
+    margin-top: 10px;
+    border-top: 4px solid brown;
+}
+.background img{
+    width: 950px;
+    padding: 0 10px;
+}
+.box p{
+    width: 280px;
+    padding-left: 10px;
+}
+.box{
+    left: 56px;
+    top: -360px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.box1{
+    position: relative;
+}
+.buton button{
+    background-color: rgb(212, 34, 34);
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 75%;
+    position: absolute;
+    top: -70px;
+}
+.buton{
+    position: relative;
+}
+.content .data{
+    display: flex;
+}
+.row{
+    display: flex;
+}
+.display{
+    display: inline-block;
+}
+.row .row-p{
+    padding: 0 14px;
+    width: 305px;
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.img div{
+    display: inline-block;
+    transition: all 1s linear 0s;
+    margin-left: 150px;
+}
+.img div:hover{
+    transform: rotate(360deg) scale(2,2);
+}
